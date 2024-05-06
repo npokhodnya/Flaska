@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1 class="mb-5"><strong>Тарифы</strong></h1>
+
+<div class="card-columns">
+  <div class="row">
+  {% for tarif in tarifs %}
+    <div class="col-md-4">
+      <div class="card mb-4">
+          <div class="card-header fw-bold">{{ tarif.name }}</div>
+          <div class="card-body">
+              <p class="badge bg-primary text-wrap">{{ tarif.teacher }}</p>
+              <p class="card-text">Описание:
+              {{ tarif.description }}</p>
+              <p class="card-text">Цена: {{ tarif.price }}</p>
+          </div>
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+</div>
+
+{% endblock %}

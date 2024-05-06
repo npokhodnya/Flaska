@@ -1,0 +1,155 @@
+.header {
+    background-image: url(https://media1.tenor.com/m/37vQUMzYinIAAAAC/sigma-%D1%81%D0%B8%D0%B3%D0%BC%D0%B0-%D0%B1%D0%B5%D0%B9%D0%BB.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 350%;
+    color: gold;
+   
+}
+
+.navbar a.r {
+    float: right;
+}
+
+.header h2 {
+     margin: 0px;
+}
+
+body {
+    background-color: #333;
+    margin: 0px;
+}
+
+.navbar a {
+    display: block;
+    float: left;
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 20px;
+    color: gold;
+}
+
+.navbar h3 {
+    display: block;
+    float: right;
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 20px;
+    color: gold;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #444;
+}
+
+.navbar a:hover{
+    background-color: #555;
+}
+
+.rewards{
+    margin-bottom: 0px;
+}
+
+.academyName {
+    margin-top: 0px;
+    font-size: 100px;
+}
+
+.row {
+    display: flex;
+}
+
+.leftside {
+    background-color: #888;
+    padding: 20px;
+    flex: 30%;
+}
+
+.main {
+    background-color: #777;
+    padding: 20px;
+    flex: 70%;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    color: gold;
+}
+
+.tarif {
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    max-width: fit-content;
+    color: gold;
+    margin: auto;
+    margin: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nametarif{
+    padding: 10;
+    font-size: 30px;
+    color: gold;
+    font:bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.description {
+    color: gold;
+    font: italic;
+    display: block;
+    max-width: auto;
+}
+
+.price{
+    color: gold;
+    font:oblique;
+}
+
+footer {
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+    margin: 0px;
+    background-color: #222;
+    padding: 20px;
+}
+
+footer h4{
+    margin: 0px;
+    padding-top: 20px;
+}
+
+strong {
+    color: gold;
+    font: bold;
+}
+
+.authInput {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.authInput label, .dummy h1{
+    color: blanchedalmond;
+}
+
+.dummy h1 {
+    text-align: center;
+}
+
+
+
+.text-center {
+margin-bottom: 5;
+color: gold;
+    font:oblique;}
